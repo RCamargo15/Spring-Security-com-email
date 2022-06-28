@@ -18,6 +18,27 @@ target/
 *.iws
 *.iml
 *.ipr
+.settings/
+.loadpath
+.recommenders
+.target/
+.idea/
+.src/main/resources/application.properties
+
+### Eclipse ###
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.target/
+.idea/
 
 ### NetBeans ###
 /nbproject/private/

@@ -9,6 +9,7 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Collection;
 import java.util.Collections;
 
@@ -17,7 +18,7 @@ import java.util.Collections;
 @AllArgsConstructor
 @EqualsAndHashCode
 @Entity
-public class Profile implements UserDetails {
+public class Profile implements UserDetails, Serializable {
 
     @SequenceGenerator(name = "student_sequence", sequenceName = "student_sequence", allocationSize = 1)
     @Id
